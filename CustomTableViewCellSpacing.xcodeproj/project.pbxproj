@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4134AAC31DC1F51E00A3D393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134AAC21DC1F51E00A3D393 /* AppDelegate.swift */; };
+		4134AAC51DC1F51E00A3D393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134AAC41DC1F51E00A3D393 /* ViewController.swift */; };
+		4134AAC81DC1F51E00A3D393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4134AAC61DC1F51E00A3D393 /* Main.storyboard */; };
+		4134AACA1DC1F51E00A3D393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4134AAC91DC1F51E00A3D393 /* Assets.xcassets */; };
+		4134AACD1DC1F51E00A3D393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4134AACB1DC1F51E00A3D393 /* LaunchScreen.storyboard */; };
+		4134AAD81DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134AAD71DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.swift */; };
+		4134AAE31DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4134AAE21DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4134AAD41DC1F51E00A3D393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4134AAB71DC1F51E00A3D393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4134AABE1DC1F51E00A3D393;
+			remoteInfo = CustomTableViewCellSpacing;
+		};
+		4134AADF1DC1F51E00A3D393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4134AAB71DC1F51E00A3D393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4134AABE1DC1F51E00A3D393;
+			remoteInfo = CustomTableViewCellSpacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4134AABF1DC1F51E00A3D393 /* CustomTableViewCellSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTableViewCellSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4134AAC21DC1F51E00A3D393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4134AAC41DC1F51E00A3D393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4134AAC71DC1F51E00A3D393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4134AAC91DC1F51E00A3D393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4134AACC1DC1F51E00A3D393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4134AACE1DC1F51E00A3D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4134AAD31DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewCellSpacingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4134AAD71DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellSpacingTests.swift; sourceTree = "<group>"; };
+		4134AAD91DC1F51E00A3D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4134AADE1DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableViewCellSpacingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4134AAE21DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCellSpacingUITests.swift; sourceTree = "<group>"; };
+		4134AAE41DC1F51F00A3D393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4134AABC1DC1F51E00A3D393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AAD01DC1F51E00A3D393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AADB1DC1F51E00A3D393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4134AAB61DC1F51E00A3D393 = {
+			isa = PBXGroup;
+			children = (
+				4134AAC11DC1F51E00A3D393 /* CustomTableViewCellSpacing */,
+				4134AAD61DC1F51E00A3D393 /* CustomTableViewCellSpacingTests */,
+				4134AAE11DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests */,
+				4134AAC01DC1F51E00A3D393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4134AAC01DC1F51E00A3D393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4134AABF1DC1F51E00A3D393 /* CustomTableViewCellSpacing.app */,
+				4134AAD31DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.xctest */,
+				4134AADE1DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4134AAC11DC1F51E00A3D393 /* CustomTableViewCellSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				4134AAC21DC1F51E00A3D393 /* AppDelegate.swift */,
+				4134AAC41DC1F51E00A3D393 /* ViewController.swift */,
+				4134AAC61DC1F51E00A3D393 /* Main.storyboard */,
+				4134AAC91DC1F51E00A3D393 /* Assets.xcassets */,
+				4134AACB1DC1F51E00A3D393 /* LaunchScreen.storyboard */,
+				4134AACE1DC1F51E00A3D393 /* Info.plist */,
+			);
+			path = CustomTableViewCellSpacing;
+			sourceTree = "<group>";
+		};
+		4134AAD61DC1F51E00A3D393 /* CustomTableViewCellSpacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				4134AAD71DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.swift */,
+				4134AAD91DC1F51E00A3D393 /* Info.plist */,
+			);
+			path = CustomTableViewCellSpacingTests;
+			sourceTree = "<group>";
+		};
+		4134AAE11DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4134AAE21DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.swift */,
+				4134AAE41DC1F51F00A3D393 /* Info.plist */,
+			);
+			path = CustomTableViewCellSpacingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4134AABE1DC1F51E00A3D393 /* CustomTableViewCellSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4134AAE71DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacing" */;
+			buildPhases = (
+				4134AABB1DC1F51E00A3D393 /* Sources */,
+				4134AABC1DC1F51E00A3D393 /* Frameworks */,
+				4134AABD1DC1F51E00A3D393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomTableViewCellSpacing;
+			productName = CustomTableViewCellSpacing;
+			productReference = 4134AABF1DC1F51E00A3D393 /* CustomTableViewCellSpacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4134AAD21DC1F51E00A3D393 /* CustomTableViewCellSpacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4134AAEA1DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacingTests" */;
+			buildPhases = (
+				4134AACF1DC1F51E00A3D393 /* Sources */,
+				4134AAD01DC1F51E00A3D393 /* Frameworks */,
+				4134AAD11DC1F51E00A3D393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4134AAD51DC1F51E00A3D393 /* PBXTargetDependency */,
+			);
+			name = CustomTableViewCellSpacingTests;
+			productName = CustomTableViewCellSpacingTests;
+			productReference = 4134AAD31DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4134AADD1DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4134AAED1DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacingUITests" */;
+			buildPhases = (
+				4134AADA1DC1F51E00A3D393 /* Sources */,
+				4134AADB1DC1F51E00A3D393 /* Frameworks */,
+				4134AADC1DC1F51E00A3D393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4134AAE01DC1F51E00A3D393 /* PBXTargetDependency */,
+			);
+			name = CustomTableViewCellSpacingUITests;
+			productName = CustomTableViewCellSpacingUITests;
+			productReference = 4134AADE1DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4134AAB71DC1F51E00A3D393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = CheapGo02;
+				TargetAttributes = {
+					4134AABE1DC1F51E00A3D393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					4134AAD21DC1F51E00A3D393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4134AABE1DC1F51E00A3D393;
+					};
+					4134AADD1DC1F51E00A3D393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4134AABE1DC1F51E00A3D393;
+					};
+				};
+			};
+			buildConfigurationList = 4134AABA1DC1F51E00A3D393 /* Build configuration list for PBXProject "CustomTableViewCellSpacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4134AAB61DC1F51E00A3D393;
+			productRefGroup = 4134AAC01DC1F51E00A3D393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4134AABE1DC1F51E00A3D393 /* CustomTableViewCellSpacing */,
+				4134AAD21DC1F51E00A3D393 /* CustomTableViewCellSpacingTests */,
+				4134AADD1DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4134AABD1DC1F51E00A3D393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134AACD1DC1F51E00A3D393 /* LaunchScreen.storyboard in Resources */,
+				4134AACA1DC1F51E00A3D393 /* Assets.xcassets in Resources */,
+				4134AAC81DC1F51E00A3D393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AAD11DC1F51E00A3D393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AADC1DC1F51E00A3D393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4134AABB1DC1F51E00A3D393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134AAC51DC1F51E00A3D393 /* ViewController.swift in Sources */,
+				4134AAC31DC1F51E00A3D393 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AACF1DC1F51E00A3D393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134AAD81DC1F51E00A3D393 /* CustomTableViewCellSpacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4134AADA1DC1F51E00A3D393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4134AAE31DC1F51E00A3D393 /* CustomTableViewCellSpacingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4134AAD51DC1F51E00A3D393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4134AABE1DC1F51E00A3D393 /* CustomTableViewCellSpacing */;
+			targetProxy = 4134AAD41DC1F51E00A3D393 /* PBXContainerItemProxy */;
+		};
+		4134AAE01DC1F51E00A3D393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4134AABE1DC1F51E00A3D393 /* CustomTableViewCellSpacing */;
+			targetProxy = 4134AADF1DC1F51E00A3D393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4134AAC61DC1F51E00A3D393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4134AAC71DC1F51E00A3D393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4134AACB1DC1F51E00A3D393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4134AACC1DC1F51E00A3D393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4134AAE51DC1F51F00A3D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4134AAE61DC1F51F00A3D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4134AAE81DC1F51F00A3D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTableViewCellSpacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4134AAE91DC1F51F00A3D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomTableViewCellSpacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacing;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4134AAEB1DC1F51F00A3D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTableViewCellSpacingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTableViewCellSpacing.app/CustomTableViewCellSpacing";
+			};
+			name = Debug;
+		};
+		4134AAEC1DC1F51F00A3D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CustomTableViewCellSpacingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomTableViewCellSpacing.app/CustomTableViewCellSpacing";
+			};
+			name = Release;
+		};
+		4134AAEE1DC1F51F00A3D393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CustomTableViewCellSpacingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomTableViewCellSpacing;
+			};
+			name = Debug;
+		};
+		4134AAEF1DC1F51F00A3D393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CustomTableViewCellSpacingUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CheapGo02.CustomTableViewCellSpacingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CustomTableViewCellSpacing;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4134AABA1DC1F51E00A3D393 /* Build configuration list for PBXProject "CustomTableViewCellSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134AAE51DC1F51F00A3D393 /* Debug */,
+				4134AAE61DC1F51F00A3D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4134AAE71DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134AAE81DC1F51F00A3D393 /* Debug */,
+				4134AAE91DC1F51F00A3D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4134AAEA1DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134AAEB1DC1F51F00A3D393 /* Debug */,
+				4134AAEC1DC1F51F00A3D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4134AAED1DC1F51F00A3D393 /* Build configuration list for PBXNativeTarget "CustomTableViewCellSpacingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4134AAEE1DC1F51F00A3D393 /* Debug */,
+				4134AAEF1DC1F51F00A3D393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4134AAB71DC1F51E00A3D393 /* Project object */;
+}
